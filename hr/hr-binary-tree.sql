@@ -20,5 +20,5 @@ Algorithm Breakdown:
         - Root: No parent, children optional
         - Inner: Yes parent, yes children
         - Leaf: Yes parent, no children
-    3. Return with node identifier, sort by identifier in ascending
+    3. Return with distinct node identifier, sort by identifier in ascending
 */
