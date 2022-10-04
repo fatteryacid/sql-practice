@@ -13,6 +13,7 @@ ORDER BY t1.N ASC
 Algorithm Breakdown:
 
     1. LEFT JOIN (self) for child nodes. 
+        - Parent nodes are already provided, so ignore them.
         - I used LEFT JOIN here since not all nodes will have children.
         - In other words, return me all nodes and their children if applicable.
     2. Use following logic in CASE statement:
