@@ -29,3 +29,12 @@ HAVING
         FROM cte
     )
 ORDER BY 3 DESC, 1
+
+/*
+Algorithm Breakdown:
+    1. Create aggregate CTE for reuse
+    2. Create another instance of Challenges aggregate to use with HAVING clause.
+    3. HAVING clause filters:
+        - Duplicate values
+        - Except for duplicates that = max values
+*/
